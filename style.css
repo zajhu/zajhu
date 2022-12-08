@@ -1,0 +1,46 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+header > img{
+    height: 100%;
+    width: auto;
+    display: grid;
+}
+header > h1{
+    display: grid;
+    width: fit-content;
+    align-content: space-around;
+}
+.card{
+    height: fit-content;
+    width: 14rem;
+    border: 2px solid #9f7171;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+.card > img{
+    width: inherit;
+}
+.card_Tittle{
+    font-size: large;
+    margin: auto;
+    padding: 5px;
+}
+.card_Contener{
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+}
